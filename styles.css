@@ -20,11 +20,18 @@ body {
   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
   .calculator {
-    max-width: 500px;
+    max-width: 700px;
   }
 }
+
+@media (max-width:700px) {
+  .calculator {
+    max-width: none;
+  }
+}
+
 
 .display {
   width: 100%;
